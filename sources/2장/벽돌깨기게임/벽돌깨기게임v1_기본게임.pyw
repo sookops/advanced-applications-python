@@ -53,7 +53,7 @@ def init_game():
      ball_group.empty()
      block_group.empty()
      all_sprite_group.empty()
-     for i in range(3):
+     for i in range(1):
           speed = (random.randint(3,6)*random.choice([-1,1]), -random.randint(3,6))
           ball_group.add(Ball(RED, (10,10), (250,300), speed))
      ypos = 0
